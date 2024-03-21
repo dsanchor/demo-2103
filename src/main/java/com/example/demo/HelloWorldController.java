@@ -12,7 +12,7 @@ public class HelloWorldController {
     @GetMapping("/hello")
     public String helloWorld() {
         System.out.println("Entering helloWorld method");
-        String result = "Hello World";
+        String result = "Hello World from Spring Boot!";
         System.out.println("Exiting helloWorld method with result: " + result);
         return result;
     }
